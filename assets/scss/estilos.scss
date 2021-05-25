@@ -1,0 +1,44 @@
+@import "tipografia";
+@import "home";
+@import "servicios";
+@import "proyectos";
+@import "nosotros";
+@import "blog";
+@import "contacto";
+@import "footer";
+
+
+.errorBack {
+    background-color:  #F3F3F3;
+}
+
+.errorContenedor {
+    margin-top: 100px;
+}
+
+.errorTitle {
+    font-size: 80pt;
+    color:#3F3F3F ;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.errorTexto {
+    font-size: 16pt;
+    color:#3F3F3F ;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+

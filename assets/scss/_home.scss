@@ -1,0 +1,136 @@
+
+
+
+/* Estilos Index Principal */
+
+.sectionUno{
+    margin-top: 30px;
+    height: 500px;
+    padding: 50px 70px 20px;
+    border: 5px;
+    background-image: url("../../img/SillaIndex.png");
+}
+
+.sectionUno__texJumbo {
+    width: 600px;
+}
+
+.jumbotron__title {
+    margin-top: -20px;
+}
+
+.jumbotron__texto {
+    margin-top: 30px;
+}
+
+/* Estilos Section Servicios*/
+
+.sectionDos { 
+    margin-top: 30px;
+    padding: 50px 70px 20px;
+    border: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3F3;
+    height: 350px;
+}
+
+.sectionDos__textoQuehacemos {
+    width: 500px;
+    height: 500px;
+}
+
+.tranHora {
+    background-color: #513D59;
+    transition: all .3s;
+}
+
+.tranHora div a:hover {
+    background-image: linear-gradient(315deg, #d387ab 0%, #b279a7 74%);
+}
+
+.agendaHora {
+
+    a {
+        background-color: #513D59;
+        color:white;
+        height: 60px;
+        width: 500px;
+        font-size: 20pt;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+  
+}
+
+.sectionDosServicios {
+    padding: 50px 20px 20px;
+    margin-top: 30px;
+}
+
+.textoSerHome {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.tranSerTex {
+    color:#3F3F3F;
+    transition: all .3s;
+}
+
+.tranSerTex h2:hover {
+    color:#B393C1;
+}
+
+.marginSerHome {
+    margin-bottom: 20px;
+}
+
+.tranScaleBoton a:hover {
+    transform: scale(1.1);
+    transition: all .3s ;
+    
+} 
+
+/* Estilos Section Proyectos */
+
+.sectionTresPro {
+    padding: 20px 70px 20px;
+    margin-top: 30px;
+
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+
+.marginProHome {
+    margin-bottom: 20px;
+}
+
+/* Estilos Section Blog */
+
+.sectionCuatro {
+    padding-bottom: 20px;
+    margin-top: 30px;
+} 
+
+.sectionCuatro__title {
+    padding-bottom: 30px;
+}
+
+.card-body  {
+
+    p {
+        font-size: 12pt;
+    }
+  
+}
+
+.cardColor {
+    background-color: #F3F3F3;
+}
+

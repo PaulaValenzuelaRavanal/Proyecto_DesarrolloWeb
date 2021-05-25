@@ -1,0 +1,29 @@
+
+
+
+/*Proyectos*/
+
+.tituloProyectos { 
+    height: 100px;
+    padding: 20px 70px 20px;
+    margin-top: 30px;
+}
+
+
+.tranScalePro img:hover {
+    transform: scale(2);
+    transition: all .3s ;
+} 
+
+.secColorProyectos {
+    padding: 20px 70px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #F3F3F3;
+    height: 200px;
+}
+
+.marginImgPro {
+    margin-bottom: 20px;
+}
+
