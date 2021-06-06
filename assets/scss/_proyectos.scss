@@ -1,6 +1,4 @@
 
-
-
 /*Proyectos*/
 
 .tituloProyectos { 
@@ -46,7 +44,7 @@
 	background: #e2e2e2;
 	text-align: center;
 	cursor: pointer;
-    border-radius: 5px ;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .grid figure img {
@@ -89,8 +87,10 @@
 }
 
 .grid figure h3 {
+	font-size: 15pt;
 	word-spacing: -0.15em;
 	font-weight: 300;
+	font-style: none;
 }
 
 .grid figure h3 span {
@@ -115,9 +115,9 @@ figure.effect-sadie figcaption::before {
 	width: 100%;
 	height: 100%;
 	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
 	content: '';
-	opacity: 0;
+	opacity:0;
 	-webkit-transform: translate3d(0,50%,0);
 	transform: translate3d(0,50%,0);
 }
@@ -127,8 +127,7 @@ figure.effect-sadie h3 {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	color: #513D59;;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	color: #ffffff;	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
 	transition: transform 0.35s, color 0.35s;
 	-webkit-transform: translate3d(0,-50%,0);
 	transform: translate3d(0,-50%,0);
