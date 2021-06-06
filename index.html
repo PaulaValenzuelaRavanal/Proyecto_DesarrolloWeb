@@ -55,26 +55,21 @@
 
 <!--Primera Sección Home/Fotografía+Titulo Principal-->
 
-<section class="container-fluid sectionUno">
-
-    <div class="jumbotron sectionUno__texJumbo">
-
-        <div class="jumbotron__title">
-            <h1>¿Necesitas renovar tus espacios?</h1>
-        </div>
-
-
-        <div class="jumbotron__texto">
-            <p class="lead">Estamos aqui para ayudarte, te ofrecemos la manera más simple y efectiva de tener la casa de tus sueños.</p>
-            <hr class="my-2">
-            <p>Revisa nuestros servicios y animate a cotizar con Attico Studio.</p>
-            <p class="lead tranScaleBoton">
-              <a class="btn btn-secondary btn-lg shadow-sm" href="./views/contacto.html" role="button">Ver Servicios</a>
-            </p>
-        </div>
-
+<section class="sectionUnoCard">
+  <div class="card bg-dark">
+    <img src="img/SillaIndex.png" class="card-img" alt="...">
+    <div class="card-img-overlay sectionUnoBody">
+      <h1 class="card-title section__title">¿Necesitas renovar tus espacios?</h1>
+      <div class="sectionUno__texto">
+        <p>Estamos aqui para ayudarte, te ofrecemos la manera más simple y efectiva de tener la casa de tus sueños.</p>
+        <hr class="my-2">
+        <p>Revisa nuestros servicios y animate a cotizar con Attico Studio.</p>
+        <p class="lead tranScaleBoton">
+          <a class="btn btn-secondary btn-lg shadow-sm" href="./views/contacto.html" role="button">Ver Servicios</a>
+        </p>
     </div>
-
+    </div>
+  </div>
 </section>
 
 <!--Segunda Sección Home/Servicios Uno-->
@@ -85,11 +80,10 @@
 
     <div class="col-lg-12 col-md-12 col-xs-12">    
 
-        <h2 class="text-center">Qué hacemos</h2>
-        <p class="text-center">En AtticoStudio encontrarás un servicio de acuerdo a tus necesidades, ya que nuestra variedad de servicios se adaptan a los requerimientos de cada cliente. Realiza tu renovación con nosotros y obtén espacios soñados llenos de emociones.</p>
-
+        <h2 class="mt-3">Qué hacemos</h2>
+        <p>En AtticoStudio encontrarás un servicio de acuerdo a tus necesidades, <span> ya que nuestra variedad de servicios se adaptan a los requerimientos de cada cliente.</span> Realiza tu renovación con nosotros y obtén espacios soñados llenos de emociones.</p>
         <p class="lead tranScaleBoton serviciosCenter">
-          <a class="btn btn-secondary btn-lg shadow-sm" href="./views/contacto.html" role="button">Agenda tu hora</a>
+          <a class="btn btn-secondary btn-lg shadow-sm mt-1" href="./views/contacto.html" role="button">Agenda tu hora</a>
         </p>
 
 </div>
@@ -106,7 +100,7 @@
         <div class="card shadow" style="width: 18rem;">
           <img src="img/ServicioProyecto1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h2 class="card-title">Proyecto</h2>
+            <h3 class="card-title">Proyecto</h3>
             <p class="card-text">Solicita la asesoría para tu obra nueva o para renovar tu hogar completo, desde la decoración a la construcción de nuevos espacios.</p>
             <div class="tranScaleBoton">
             <a class="btn btn-sm btn-secondary shadow-sm" href="./views/servicios.html">Ver detalles</a>
@@ -119,7 +113,7 @@
         <div class="card shadow"  style="width: 18rem;">
           <img src="img/ServicioRemodelación1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h2 class="card-title">Remodelación</h2>
+            <h3 class="card-title">Remodelación</h3>
             <p class="card-text">Puedes cotizar la renovación de tu cocina, de tu baño o del espacio que quieras, nosotros te asesoramos en lo requieras para tu proyecto.</p>
             <div class="tranScaleBoton">
             <a class="btn btn-sm btn-secondary shadow-sm" href="./views/servicios.html">Ver detalles</a>
@@ -132,7 +126,7 @@
         <div class="card shadow" style="width: 18rem;">
           <img src="img/ServicioMuebles1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h2 class="card-title">Muebles</h2>
+            <h3 class="card-title">Muebles</h3>
             <p class="card-text">Realiza tus muebles con nosotros, en nuestro taller de carpintería realizamos todo tipo de muebles a pedido en maderas nobles.</p>
             <div class="tranScaleBoton">
               <a class="btn btn-sm btn-secondary shadow-sm" href="./views/servicios.html">Ver detalles</a>
@@ -145,7 +139,7 @@
         <div class="card shadow" style="width: 18rem;">
           <img src="img/ServicioDecoración1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h2 class="card-title">Decoración</h2>
+            <h3 class="card-title">Decoración</h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <div class="tranScaleBoton">
               <a class="btn btn-sm btn-secondary shadow-sm" href="./views/servicios.html">Ver detalles</a>
@@ -165,17 +159,37 @@
 
         <h2>Galeria de proyectos</h2>
         
-        <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-fluid rounded mx-auto d-block shadow-sm marginProHome" src="./img/Galeria6.png" alt="">
+        <div class="col-lg-4 col-md-6 col-xs-12 marginImgPro grid">
+          <figure class="effect-sadie">
+            <img class="img-fluid mx-auto d-block" src="../img/CocinaVintaje.png" alt="">
+            <figcaption>
+              <h3>Cocina <span>Las Condes</span></h3> 
+              <p>Proyecto cocina estilo vintage casa las Las Condes.</p>
+              <a href="#"></a>
+            </figcaption>
+          </figure>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-fluid rounded mx-auto d-block shadow-sm marginProHome" src="./img/Galeria9.png" alt="">
+    
+        <div class="col-lg-4 col-md-6 col-xs-12 marginImgPro grid">
+          <figure class="effect-sadie">
+            <img class="img-fluid mx-auto d-block" src="../img/Galeria1.png" alt="">
+            <figcaption>
+              <h3>Muebles <span>Los Molinos</span></h3> 
+              <p>Desarrollo de mobiliario casa Los Molinos.</p>
+              <a href="#"></a>
+            </figcaption>
+          </figure>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-fluid rounded mx-auto d-block shadow-sm marginProHome" src="./img/Galeria7.png" alt="">
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-fluid rounded mx-auto d-block shadow-sm marginProHome" src="./img/BañoModerno.png" alt="">
+    
+        <div class="col-lg-4 col-md-6 col-xs-12 marginImgPro grid">
+          <figure class="effect-sadie">
+            <img class="img-fluid mx-auto d-block" src="../img/TerrazaMadera.png" alt="">
+            <figcaption>
+              <h3>Terraza <span>Pacheco</span></h3> 
+              <p>Remodelación Terraza Región del Maule</p>
+              <a href="#"></a>
+            </figcaption>
+          </figure>
         </div>
 
     </div>
@@ -193,10 +207,10 @@
 </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12">
-        <div class="card w-auto" style="width: 18rem;">
+        <div class="card w-100 mb-3" style="width: 18rem;">
             <img src="./img/BotanicoBlog.png" class="card-img-top" alt="...">
             <div class="card-body cardColor">
-              <h4>Lo Botánico está de vuelta</h4>
+              <h4>Estilo Botánico</h4>
               <p>Darle un toque verde a tus espacios nunca esta demás. Descubre las nuevas alternativas del mercado en porcelanatos y cerámicas para que tus espacios se vuelvan acogedores y con un estilo único. Revisa los productos que recomendamos, desde impresiones con selvas a sutiles petalos en relevie para tus muros.</p>
               <a href="#" class="btn btn-sm btn-dark">Ver más</a>
             </div>
@@ -204,7 +218,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12">
-        <div class="card w-auto" style="width: 18rem;">
+        <div class="card w-auto mb-3" style="width: 18rem;">
             <img src="./img/InOutBloog.png" class="card-img-top" alt="...">
             <div class="card-body cardColor">
                 <h4>In&Out</h4>
@@ -216,7 +230,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12">
-        <div class="card w-auto" style="width: 18rem;">
+        <div class="card w-auto mb-3" style="width: 18rem;">
             <img src="./img/TerrazoBlog.png" class="card-img-top" alt="...">
             <div class="card-body cardColor">
                 <h4>Estilo Terrazo</h4>

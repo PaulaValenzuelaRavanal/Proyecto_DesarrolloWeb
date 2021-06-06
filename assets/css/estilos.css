@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: #513D59;
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 600; }
 
 h2 {
@@ -38,24 +38,24 @@ a {
   text-decoration: none; }
 
 /* Estilos Index Principal */
-.sectionUno {
+.sectionUnoCard {
   margin-top: 30px;
+  height: 500px; }
+
+.sectionUnoBody {
+  margin-top: -20px;
   height: 500px;
   padding: 50px 70px 20px;
   border: 5px;
-  background-image: url("../../img/SillaIndex.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-
-.sectionUno__texJumbo {
   width: 600px; }
 
-.jumbotron__title {
+.sectionUno__title {
   margin-top: -20px; }
 
-.jumbotron__texto {
+.sectionUno__texto {
   margin-top: 30px; }
+  .sectionUno__texto p {
+    font-weight: 400; }
 
 /* Estilos Section Servicios*/
 .sectionDos {
@@ -67,8 +67,10 @@ a {
   height: 350px; }
 
 .sectionDos__textoQuehacemos {
-  width: 500px;
+  width: 400px;
   height: 500px; }
+  .sectionDos__textoQuehacemos span {
+    font-weight: 500; }
 
 .tranHora {
   background-color: #513D59;
@@ -149,15 +151,18 @@ a {
 .sectionUnoServicios {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 20px;
   display: flex;
   justify-content: center;
   background-color: #F3F3F3;
-  height: 300px; }
+  height: 250px; }
 
-.row__textoServicios {
-  margin-top: 50px;
-  width: 600px; }
+.sectionTextoSer {
+  padding-top: 40px;
+  margin-left: 40px;
+  width: 400px; }
+
+.sectionTextoSer span {
+  font-weight: 500; }
 
 .sectionDosSer {
   margin-top: 40px;
@@ -211,7 +216,8 @@ a {
   background: #e2e2e2;
   text-align: center;
   cursor: pointer;
-  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); }
+  border-radius: 3px;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(167, 167, 167, 0.4); }
 
 .grid figure img {
   position: relative;
@@ -322,16 +328,17 @@ figure.effect-sadie:hover p {
   margin-top: 30px; }
 
 .secUnoNosotros {
-  margin-top: 20px;
-  padding-top: 10px;
   display: flex;
   justify-content: center;
   background-color: #F3F3F3;
-  height: 300px; }
+  height: 250px; }
 
 .secUnoNosotros__texto {
-  margin-top: 50px;
-  width: 600px; }
+  width: 400px;
+  padding-top: 15px;
+  margin-left: 40px; }
+  .secUnoNosotros__texto span {
+    font-weight: 500; }
 
 .secEquipo {
   margin-top: 30px;
@@ -353,28 +360,6 @@ figure.effect-sadie:hover p {
   display: flex;
   justify-content: space-around; }
 
-/*BEM Desafio Aplicar Sass en una section si estilos*/
-.sectionCreciendo {
-  background-color: #F3F3F3;
-  height: 300px;
-  margin-top: 30px;
-  padding: 20px 70px 20px;
-  border: 5px;
-  margin-bottom: 30px; }
-
-.col-12__titleCreciendo {
-  margin-bottom: 30px; }
-
-.col-12__parrafoCreciendo {
-  width: 700px;
-  margin-left: 200px;
-  margin-top: 10px; }
-
-.col__textoCreciendo {
-  margin-top: 20px;
-  font-size: 15pt;
-  font-weight: 700; }
-
 /*Blog*/
 .secUnoBlog {
   margin-top: 30px;
@@ -392,14 +377,19 @@ figure.effect-sadie:hover p {
 
 /*Contacto*/
 .secUnoContacto {
-  height: 500px;
-  padding: 20px 70px 20px;
   margin-top: 30px;
-  background-image: url("../../img/conP.png"); }
+  height: 500px; }
 
-.secUnoContacto__texto {
-  width: 500px;
-  margin-top: 30px; }
+.secUnoBodyContacto {
+  margin-top: -20px;
+  height: 500px;
+  padding: 50px 70px 20px;
+  border: 5px;
+  width: 600px; }
+
+.secUnoBodyContacto__texto {
+  margin-top: 20px;
+  width: 500px; }
 
 .secContacto {
   height: 100px;

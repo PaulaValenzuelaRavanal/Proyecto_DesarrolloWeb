@@ -10,17 +10,21 @@
 }
 
 .secUnoNosotros {
-    margin-top: 20px;
-    padding-top: 10px;
     display: flex;
     justify-content: center;
     background-color: #F3F3F3;
-    height: 300px;
+    height: 250px;
 }
 
 .secUnoNosotros__texto {
-    margin-top: 50px;
-    width: 600px;
+    width: 400px;
+    padding-top: 15px;
+    margin-left: 40px;
+
+    span {
+        font-weight: 500;
+    }
+    
 }
 
 .secEquipo {
@@ -49,32 +53,7 @@
 }
 
 
-/*BEM Desafio Aplicar Sass en una section si estilos*/
 
-.sectionCreciendo {
-    background-color: #F3F3F3;
-    height: 300px;
-    margin-top: 30px;
-    padding: 20px 70px 20px;
-    border: 5px;
-    margin-bottom: 30px;
-}
-
-.col-12__titleCreciendo {
-    margin-bottom: 30px;
-}
-
-.col-12__parrafoCreciendo {
-    width: 700px;
-    margin-left: 200px;
-    margin-top: 10px;
-}
-
-.col__textoCreciendo {
-    margin-top: 20px;
-    font-size: 15pt;
-    font-weight: 700;    
-}
 
 
 

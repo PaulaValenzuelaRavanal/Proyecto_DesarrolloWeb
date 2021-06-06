@@ -12,17 +12,22 @@
 .sectionUnoServicios {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
     background-color: #F3F3F3;
-    height: 300px;
+    height: 250px;
 }
 
-.row__textoServicios {
-    margin-top: 50px;
-    width: 600px;
+.sectionTextoSer {
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 400px;
 }
+
+.sectionTextoSer span {
+    font-weight: 500;
+}
+
 
 .sectionDosSer {
     margin-top: 40px;

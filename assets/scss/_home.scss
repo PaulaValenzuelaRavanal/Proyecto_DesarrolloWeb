@@ -3,27 +3,29 @@
 
 /* Estilos Index Principal */
 
-.sectionUno{
+.sectionUnoCard {
     margin-top: 30px;
+    height: 500px;
+}
+
+.sectionUnoBody{
+    margin-top: -20px;
     height: 500px;
     padding: 50px 70px 20px;
     border: 5px;
-    background-image: url("../../img/SillaIndex.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.sectionUno__texJumbo {
     width: 600px;
 }
 
-.jumbotron__title {
+.sectionUno__title {
     margin-top: -20px;
 }
 
-.jumbotron__texto {
+.sectionUno__texto {
     margin-top: 30px;
+
+    p {
+        font-weight: 400;
+    }
 }
 
 /* Estilos Section Servicios*/
@@ -38,8 +40,12 @@
 }
 
 .sectionDos__textoQuehacemos {
-    width: 500px;
+    width: 400px;
     height: 500px;
+
+    span {
+        font-weight: 500;
+    }
 }
 
 .tranHora {
@@ -131,6 +137,7 @@
 }
 
 .card-body  {
+    
 
     p {
         font-size: 12pt;
