@@ -191,7 +191,8 @@ a {
   height: 200px; }
 
 .marginImgPro {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
 
 /*Efecto*/
 .grid {
@@ -214,8 +215,7 @@ a {
 
 .grid figure img {
   position: relative;
-  display: block;
-  opacity: 0.8; }
+  display: block; }
 
 .grid figure figcaption {
   padding: 2em;
@@ -244,16 +244,17 @@ a {
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
-  opacity: 0; }
-
-.grid figure h3 {
-  font-size: 15pt;
-  word-spacing: -0.15em;
-  font-weight: 300;
+  opacity: 0;
   font-style: none; }
 
-.grid figure h3 span {
+.grid figure h3 {
+  text-transform: none;
+  font-size: 15pt;
   font-weight: 500; }
+
+.grid figure h3 span {
+  font-weight: 300;
+  font-style: none; }
 
 .grid figure h3,
 .grid figure p {
@@ -412,7 +413,9 @@ figure.effect-sadie:hover p {
 .secFormulario {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px 70px 20px; }
+  padding: 20px 70px 20px;
+  display: flex;
+  justify-content: space-around; }
 
 /* Estilos Footer */
 footer {
