@@ -40,21 +40,21 @@ a {
 /* Estilos Index Principal */
 .sectionUnoCard {
   margin-top: 30px;
-  height: 500px; }
+  height: auto;
+  width: 100%; }
 
 .sectionUnoBody {
   margin-top: -20px;
-  height: 500px;
   padding: 50px 70px 20px;
-  border: 5px;
-  width: 600px; }
+  border: 5px; }
 
 .sectionUno__title {
   margin-top: -20px; }
 
-.sectionUno__texto {
-  margin-top: 30px; }
-  .sectionUno__texto p {
+.sectionUnoCard__texto {
+  margin-top: 30px;
+  height: auto; }
+  .sectionUnoCard__texto p {
     font-weight: 400; }
 
 /* Estilos Section Servicios*/
@@ -386,27 +386,18 @@ figure.effect-sadie:hover p {
 /*Contacto*/
 .secUnoContacto {
   margin-top: 30px;
-  height: 500px; }
+  height: auto; }
 
 .secUnoBodyContacto {
   margin-top: -20px;
-  height: 500px;
+  height: auto;
   padding: 50px 70px 20px;
-  border: 5px;
-  width: 600px; }
-
-.secUnoBodyContacto__texto {
-  margin-top: 20px;
-  width: 500px; }
+  border: 5px; }
 
 .secContacto {
-  height: 100px;
   padding: 20px 70px 20px;
-  margin-top: 30px;
-  margin-bottom: 100px; }
-
-.secContacto__texto {
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: -20px; }
 
 .secFormulario {
   margin-top: 30px;
