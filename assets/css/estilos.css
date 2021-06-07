@@ -39,23 +39,14 @@ a {
 
 /* Estilos Index Principal */
 .sectionUnoCard {
-  margin-top: 30px;
+  margin-top: 20px;
   height: auto;
   width: 100%; }
 
 .sectionUnoBody {
-  margin-top: -20px;
+  margin-top: 80px;
   padding: 50px 70px 20px;
   border: 5px; }
-
-.sectionUno__title {
-  margin-top: -20px; }
-
-.sectionUnoCard__texto {
-  margin-top: 30px;
-  height: auto; }
-  .sectionUnoCard__texto p {
-    font-weight: 400; }
 
 /* Estilos Section Servicios*/
 .sectionDos {
@@ -383,20 +374,15 @@ figure.effect-sadie:hover p {
   margin-bottom: 30px; }
 
 /*Contacto*/
-.secUnoContacto {
-  margin-top: 30px;
-  height: auto; }
-
-.secUnoBodyContacto {
-  margin-top: -20px;
-  height: auto;
+.sectionBodyContacto {
+  margin-top: 80px;
   padding: 50px 70px 20px;
   border: 5px; }
 
-.secContacto {
-  padding: 20px 70px 20px;
+.secUnoContacto {
   margin-top: 20px;
-  margin-bottom: -20px; }
+  height: auto;
+  width: 100%; }
 
 .secFormulario {
   margin-top: 30px;
