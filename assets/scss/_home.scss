@@ -137,7 +137,6 @@
 }
 
 .card-body  {
-    
 
     p {
         font-size: 12pt;
@@ -147,5 +146,10 @@
 
 .cardColor {
     background-color: #F3F3F3;
+}
+
+.cardCenter {
+    display: flex;
+    justify-content: center;
 }
 

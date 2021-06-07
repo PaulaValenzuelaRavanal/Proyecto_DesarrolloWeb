@@ -15,7 +15,7 @@ h2 {
 
 h3 {
   font-size: 1,1rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #3F3F3F; }
 
 h4 {
@@ -141,6 +141,10 @@ a {
 
 .cardColor {
   background-color: #F3F3F3; }
+
+.cardCenter {
+  display: flex;
+  justify-content: center; }
 
 /*Servicios*/
 .tituloServicios {
