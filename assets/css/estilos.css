@@ -153,7 +153,7 @@ a {
   margin-top: 30px; }
 
 .sectionUnoServicios {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -161,7 +161,6 @@ a {
   height: 250px; }
 
 .sectionTextoSer {
-  padding-top: 40px;
   margin-left: 40px;
   width: 400px; }
 
