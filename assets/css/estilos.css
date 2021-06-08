@@ -37,17 +37,6 @@ li {
 a {
   text-decoration: none; }
 
-/* Estilos Index Principal */
-.sectionUnoCard {
-  margin-top: 20px;
-  height: auto;
-  width: 100%; }
-
-.sectionUnoBody {
-  margin-top: 80px;
-  padding: 50px 70px 20px;
-  border: 5px; }
-
 /* Estilos Section Servicios*/
 .sectionDos {
   margin-top: 30px;
@@ -374,16 +363,6 @@ figure.effect-sadie:hover p {
   margin-bottom: 30px; }
 
 /*Contacto*/
-.sectionBodyContacto {
-  margin-top: 80px;
-  padding: 50px 70px 20px;
-  border: 5px; }
-
-.secUnoContacto {
-  margin-top: 20px;
-  height: auto;
-  width: 100%; }
-
 .secFormulario {
   margin-top: 30px;
   margin-bottom: 30px;

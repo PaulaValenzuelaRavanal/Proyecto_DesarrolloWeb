@@ -54,16 +54,13 @@
 
 <!--Primera Sección/Fotografía+Título Principal-->
 
-<section class="secUnoContacto">
-  <div class="jumbotron">
-    <div>
-      <img src="../img/conP.png" class="card-img img-fluid" alt="...">
-    </div>
-    <div class="card-img-overlay sectionUnoBody col-9">
-      <h1>Contactanos!</h1>
-      <p class="lead mt-3">Si quieres contactarnos y cotizar realiza el siguiente formulario con la información solicitada, indicando el asunto y el tipo de servicio que quieres. Recuerda adjuntar un plano si el servicio así lo requiere.</p>
+<section class="row mt-4 ">
+  <div class="p-5 bg-image img-fluid" style="background-image: url('../img/conP.png'); height: 500px;">
+    <div class="w-75">
+      <h1 class="mb-3">Contacto</h1>
+      <p class="mb-3 font-weight-bolder d-flex justify-content-center secUno">Si quieres contactarnos y cotizar realiza el siguiente formulario con la información solicitada, indicando el asunto y el tipo de servicio que quieres. Recuerda adjuntar un plano si el servicio así lo requiere</p>
       <p class="lead tranScaleBoton">
-        <a class="btn btn-secondary btn-lg shadow-sm mt-3" href="./views/servicios.html" role="button">Volver al Home</a>
+        <a class="btn btn-secondary btn-lg shadow-sm mt-3" href="./views/servicios.html" role="button">Ver Servicios</a>
       </p>
     </div>
   </div>
@@ -71,54 +68,45 @@
 
 <!--Segunda Sección/Formulario de Contacto-->
 
-<section class="container-fluid secFormulario">
-  <form class="col-lg-6 col-xs-12">
-    <div class="form-group">
-      <div class="form-group">
-        <label for="inputEmail4">Nombre</label>
-        <input type="name" class="form-control" id="inputEmail4">
+<section>
+  <div class="container-fluid secFormulario">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <form>
+          <div class="form-group">
+            <label for="inputEmail4">Nombre</label>
+            <input type="name" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group mb-2">
+            <label for="inputPassword4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group mb-2">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group mb-2">
+            <label for="inputState">Selecciona Servicio</label>
+            <select id="inputState" class="form-control">
+              <option selected>Proyecto</option>
+              <option selected>Remodelación</option>
+              <option selected>Muebles</option>
+              <option selected>Decoración</option>
+            </select>
+          </div>
+          <div class="form-group form-check mb-2">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">¿Desea recibir Newsletter?</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-light">Limpiar</button>
+        </form>
       </div>
-      <br>
-      <div class="form-group">
-        <label for="inputPassword4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.7000520725983!2d-70.57491498559494!3d-33.404988780786965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ced89f33db9b%3A0x3d8edbdab97e31b8!2sRosario%20Nte%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1622646669207!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
       </div>
     </div>
-    <br>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-      <div class="form-group">
-        <label for="inputState">Selecciona Servicio</label>
-        <select id="inputState" class="form-control">
-          <option selected>Proyecto</option>
-          <option selected>Remodelación</option>
-          <option selected>Muebles</option>
-          <option selected>Decoración</option>
-        </select>
-      </div>
-      <br>
-      <div class="form-group">
-        <label for="inputZip">¿Desea recibir Newsletter?</label>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-        </label>
-      </div>
-    </div>
-    <br>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-    <button type="submit" class="btn btn-light">Limpiar</button>
-  </form>
-
-  <div class="col-lg-6 col-xs-12 row mt-3">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.7000520725983!2d-70.57491498559494!3d-33.404988780786965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ced89f33db9b%3A0x3d8edbdab97e31b8!2sRosario%20Nte%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1622646669207!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-  </div>
-
+  </div> 
 </section>
 
 <!--Footer-->
