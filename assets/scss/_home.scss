@@ -5,54 +5,24 @@
 
 .sectionDos { 
     margin-top: 30px;
-    display: flex;
-    justify-content: center;
+
     background-color: #F3F3F3;
     height: 350px;
 }
 
-.sectionDos__textoQuehacemos {
+.textoSecDos {
     margin-top: 40px;
     width: 400px;
-    height: 500px;
 
     span {
         font-weight: 500;
     }
 }
 
-.tranHora {
-    background-color: #513D59;
-    transition: all .3s;
-}
-
-.tranHora div a:hover {
-    background-image: linear-gradient(315deg, #d387ab 0%, #b279a7 74%);
-}
-
-.agendaHora {
-
-    a {
-        background-color: #513D59;
-        color:white;
-        height: 60px;
-        width: 500px;
-        font-size: 20pt;
-        margin-top: 20px;
-        padding: 10px;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-    }
-  
-}
-
 .sectionDosServicios {
     padding: 50px 20px 20px;
     margin-top: 30px;
 }
-
 
 .serviciosCenter {
     display: flex;
