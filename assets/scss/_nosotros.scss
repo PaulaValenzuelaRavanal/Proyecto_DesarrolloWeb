@@ -4,9 +4,11 @@
 /*Nosotros*/
 
 .tituloNosotros { 
-    height: 100px;
-    padding: 20px 70px 20px;
-    margin-top: 30px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .secUnoNosotros {
@@ -26,12 +28,14 @@
 
 .secEquipo {
     margin-top: 30px;
-    padding: 20px 70px 20px;
-    border: 5px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .secEquipoTitle {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .texEquipo {

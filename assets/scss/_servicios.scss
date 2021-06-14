@@ -4,9 +4,11 @@
 /*Servicios*/
 
 .tituloServicios { 
-    height: 100px;
-    padding: 20px 70px 20px;
-    margin-top: 30px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .secUnoServicios {
@@ -25,10 +27,13 @@
 }
 
 .sectionDosSer {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 40px;
-    margin-bottom: 30px;
 }
 
 .sectionDosSerTitle {
     margin-bottom: 30px;
+    margin-top: 30px;
 }

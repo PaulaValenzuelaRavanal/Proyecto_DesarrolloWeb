@@ -4,8 +4,10 @@
 /* Estilos Section Servicios*/
 
 .sectionDos { 
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 30px;
-
     background-color: #F3F3F3;
     height: 350px;
 }
@@ -20,7 +22,6 @@
 }
 
 .sectionDosServicios {
-    padding: 50px 20px 20px;
     margin-top: 30px;
 }
 
@@ -56,7 +57,9 @@
 /* Estilos Section Proyectos */
 
 .sectionTresPro {
-    padding: 20px 70px 20px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 30px;
 
     h2 {
@@ -71,12 +74,17 @@
 /* Estilos Section Blog */
 
 .sectionCuatro {
-    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 30px;
 } 
 
-.sectionCuatro__title {
-    padding-bottom: 30px;
+.sectionCuatroTitle {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
 }
 
 .card-body  {
