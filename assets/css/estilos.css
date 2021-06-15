@@ -41,8 +41,8 @@ a {
 /* Estilos Section Servicios*/
 .sectionDos {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 30px;
   background-color: #F3F3F3;
   height: 350px; }
@@ -81,26 +81,22 @@ a {
 /* Estilos Section Proyectos */
 .sectionTresPro {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 30px; }
-  .sectionTresPro h2 {
-    margin-bottom: 30px; }
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
-.marginProHome {
-  margin-bottom: 20px; }
+.sectionTresTitle {
+  margin-bottom: 30px; }
 
 /* Estilos Section Blog */
 .sectionCuatro {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 30px; }
 
 .sectionCuatroTitle {
-  width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
   margin-bottom: 30px; }
 
 .card-body p {
@@ -116,12 +112,15 @@ a {
 /*Servicios*/
 .tituloServicios {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
 .secUnoServicios {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 15px;
   margin-bottom: 20px;
   background-color: #F3F3F3;
@@ -135,8 +134,8 @@ a {
 
 .sectionDosSer {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 40px; }
 
 .sectionDosSerTitle {
@@ -146,8 +145,8 @@ a {
 /*Proyectos*/
 .tituloProyectos {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -277,14 +276,17 @@ figure.effect-sadie:hover p {
 /*Nosotros*/
 .tituloNosotros {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
 .secUnoNosotros {
   background-color: #F3F3F3;
-  height: 250px; }
+  height: 250px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .secTextoNosotros {
   width: 400px;
@@ -295,8 +297,8 @@ figure.effect-sadie:hover p {
 .secEquipo {
   margin-top: 30px;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .secEquipoTitle {
   margin-bottom: 30px;
@@ -328,8 +330,8 @@ figure.effect-sadie:hover p {
 /*Blog*/
 .secUnoBlog {
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -344,9 +346,9 @@ figure.effect-sadie:hover p {
 
 /*Contacto*/
 .secFormulario {
+  padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px 70px 20px;
   display: flex;
   justify-content: space-around; }
 
