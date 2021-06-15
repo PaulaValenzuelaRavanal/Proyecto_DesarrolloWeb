@@ -345,13 +345,6 @@ figure.effect-sadie:hover p {
   margin-bottom: 30px; }
 
 /*Contacto*/
-.secFormulario {
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: space-around; }
-
 /* Estilos Footer */
 footer {
   background-color: #2D2D2D;
