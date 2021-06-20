@@ -46,7 +46,7 @@ a {
   height: 500px; }
   .sectionUno span {
     font-weight: 400;
-    font-size: 20px; }
+    font-size: 16px; }
 
 .sectionDos {
   width: 100%;
@@ -361,6 +361,15 @@ figure.effect-sadie:hover p {
   padding-right: 20px; }
 
 /*Contacto*/
+.sectionUnoContacto {
+  width: 100%;
+  margin-top: 30px;
+  background-image: url("/img/Contacto.png");
+  height: 500px; }
+  .sectionUnoContacto span {
+    font-weight: 400;
+    font-size: 16px; }
+
 /* Estilos Footer */
 footer {
   background-color: #2D2D2D;
