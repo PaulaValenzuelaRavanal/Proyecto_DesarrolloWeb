@@ -42,7 +42,7 @@ a {
 .sectionUno {
   width: 100%;
   margin-top: 30px;
-  background-image: url("/img/index.png");
+  background-image: url("../../img/index.png");
   height: 500px; }
   .sectionUno span {
     font-weight: 400;
@@ -364,7 +364,7 @@ figure.effect-sadie:hover p {
 .sectionUnoContacto {
   width: 100%;
   margin-top: 30px;
-  background-image: url("/img/Contacto.png");
+  background-image: url("../../img/Contacto.png");
   height: 500px; }
   .sectionUnoContacto span {
     font-weight: 400;
