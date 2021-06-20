@@ -3,6 +3,18 @@
 
 /* Estilos Section Servicios*/
 
+.sectionUno {
+    width: 100%;
+    margin-top: 30px;
+    background-image: url("/img/index.png");
+    height: 500px;
+    
+    span {
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
 .sectionDos { 
     width: 100%;
     padding-left: 20px;
@@ -22,10 +34,11 @@
 }
 
 .sectionDosServicios {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .serviciosCenter {
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -66,7 +79,7 @@
 }
 
 .sectionTresTitle {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /* Estilos Section Blog */
@@ -76,10 +89,11 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 } 
 
 .sectionCuatroTitle {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .card-body  {

@@ -39,6 +39,15 @@ a {
   text-decoration: none; }
 
 /* Estilos Section Servicios*/
+.sectionUno {
+  width: 100%;
+  margin-top: 30px;
+  background-image: url("/img/index.png");
+  height: 500px; }
+  .sectionUno span {
+    font-weight: 400;
+    font-size: 20px; }
+
 .sectionDos {
   width: 100%;
   padding-left: 20px;
@@ -54,9 +63,10 @@ a {
     font-weight: 500; }
 
 .sectionDosServicios {
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 .serviciosCenter {
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-around; }
 
@@ -87,17 +97,18 @@ a {
   margin-bottom: 30px; }
 
 .sectionTresTitle {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
 
 /* Estilos Section Blog */
 .sectionCuatro {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .sectionCuatroTitle {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
 
 .card-body p {
   font-size: 12pt; }
@@ -136,11 +147,12 @@ a {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 30px; }
 
 .sectionDosSerTitle {
-  margin-bottom: 30px;
-  margin-top: 30px; }
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 /*Proyectos*/
 .tituloProyectos {
@@ -296,6 +308,7 @@ figure.effect-sadie:hover p {
 
 .secEquipo {
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px; }
@@ -342,7 +355,10 @@ figure.effect-sadie:hover p {
   margin-top: 20px; }
 
 .secDosBlog {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 /*Contacto*/
 /* Estilos Footer */
