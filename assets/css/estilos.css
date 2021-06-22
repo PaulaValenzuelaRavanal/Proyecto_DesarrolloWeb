@@ -5,9 +5,9 @@ body {
   color: #2D2D2D; }
 
 h1 {
-  color: #513D59;
+  color: #77A8A8;
   font-size: 3em;
-  font-weight: 500; }
+  font-weight: 600; }
 
 h2 {
   font-size: 2rem;
@@ -41,12 +41,11 @@ a {
 /* Estilos Section Servicios*/
 .sectionUno {
   width: 100%;
-  margin-top: 30px;
-  background-image: url("../../img/index.png");
+  margin-top: 10px;
+  background-image: url("../../img/indexprincipal.png");
   height: 500px; }
   .sectionUno span {
-    font-weight: 400;
-    font-size: 16px; }
+    font-weight: 500; }
 
 .sectionDos {
   width: 100%;
