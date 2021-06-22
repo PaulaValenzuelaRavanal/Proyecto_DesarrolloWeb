@@ -5,7 +5,7 @@ body {
   color: #2D2D2D; }
 
 h1 {
-  color: #77A8A8;
+  color: #6BBAB9;
   font-size: 3em;
   font-weight: 600; }
 
@@ -43,7 +43,10 @@ a {
   width: 100%;
   margin-top: 10px;
   background-image: url("../../img/indexprincipal.png");
-  height: 500px; }
+  height: 500px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px; }
   .sectionUno span {
     font-weight: 500; }
 
@@ -363,7 +366,7 @@ figure.effect-sadie:hover p {
 .sectionUnoContacto {
   width: 100%;
   margin-top: 30px;
-  background-image: url("../../img/Contacto.png");
+  background-image: url("../../img/contactoprincipal.png");
   height: 500px; }
   .sectionUnoContacto span {
     font-weight: 400;
