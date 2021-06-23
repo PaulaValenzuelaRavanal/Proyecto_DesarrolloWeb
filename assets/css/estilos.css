@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Estilos Section Servicios*/
+/* Estilos Section Servicios - Index*/
 .sectionUno {
   width: 100%;
   margin-top: 10px;
@@ -318,7 +318,7 @@ figure.effect-sadie:hover p {
 /*Contacto*/
 .sectionUnoContacto {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
   background-image: url("../../img/contactoprincipal.png");
   height: 500px;
   width: 100%;
