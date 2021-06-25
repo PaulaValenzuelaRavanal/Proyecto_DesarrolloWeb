@@ -1,5 +1,47 @@
 @charset "UTF-8";
-/* Estilos Section Servicios - Index*/
+/* Tipografías */
+body {
+  font-family: Poppins;
+  color: #2D2D2D; }
+
+h1 {
+  color: #4AA8A7;
+  font-size: 3em;
+  font-weight: 600; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3F3F3F; }
+
+h3 {
+  font-size: 1,1rem;
+  font-weight: 400;
+  color: #3F3F3F; }
+
+h4 {
+  font-size: 0,5rem;
+  font-weight: 400;
+  color: #3F3F3F; }
+
+p {
+  font-size: 12pt;
+  font-weight: 300;
+  text-align: left; }
+
+li {
+  font-size: 14pt;
+  font-weight: 300;
+  list-style: none;
+  color: white; }
+
+a {
+  text-decoration: none; }
+
+span {
+  font-weight: 500; }
+
+/* Estilos Sección Princioal - Index*/
 .sectionUno {
   width: 100%;
   margin-top: 10px;
@@ -9,6 +51,7 @@
   padding-left: 20px;
   padding-right: 20px; }
 
+/* Estilos Sección Servicios - Index*/
 .sectionDos {
   width: 100%;
   padding-left: 20px;
@@ -49,7 +92,7 @@
   transform: scale(1.1);
   transition: all .3s; }
 
-/* Estilos Section Proyectos */
+/* Estilos Sección Proyectos - Index */
 .sectionTresPro {
   width: 100%;
   padding-left: 20px;
@@ -60,7 +103,7 @@
 .sectionTresTitle {
   margin-bottom: 50px; }
 
-/* Estilos Section Blog */
+/* Estilos Sección Blog - Index */
 .sectionCuatro {
   width: 100%;
   padding-left: 20px;
@@ -324,48 +367,6 @@ figure.effect-sadie:hover p {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px; }
-
-/* Tipografías */
-body {
-  font-family: Poppins;
-  color: #2D2D2D; }
-
-h1 {
-  color: #4AA8A7;
-  font-size: 3em;
-  font-weight: 600; }
-
-h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #3F3F3F; }
-
-h3 {
-  font-size: 1,1rem;
-  font-weight: 400;
-  color: #3F3F3F; }
-
-h4 {
-  font-size: 0,5rem;
-  font-weight: 400;
-  color: #3F3F3F; }
-
-p {
-  font-size: 12pt;
-  font-weight: 300;
-  text-align: left; }
-
-li {
-  font-size: 14pt;
-  font-weight: 300;
-  list-style: none;
-  color: white; }
-
-a {
-  text-decoration: none; }
-
-span {
-  font-weight: 500; }
 
 /* Estilos Footer */
 footer {
